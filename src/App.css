@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+input {
+  border-radius: 4px;
+  width: 80%;
+  padding: 10px;
+  background: #fff;
+  color: #525865;
+  border: 1px solid #d1d1d1;
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.icon {
+  position: relative;
+  right: 35px;
+  cursor: pointer;
+}
+
+.result {
+  padding: 0px 5%;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+
+.result::-webkit-scrollbar {
+  display: none;
+}
+
+.result-title {
+  margin: 40px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.result-data {
+  display: flex;
+}
